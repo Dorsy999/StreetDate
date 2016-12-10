@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cascaed.www.game_release.Home"
+    style="@style/AppTheme">
+
+    <!-- Main Screen -->
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/AppTheme">
+
+    </RelativeLayout>
+
+    <!-- Drawer Pane -->
+    <RelativeLayout
+        android:id="@+id/drawer_pane"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:background="#305165"
+        android:layout_gravity="start">
+
+        <!-- Profile Box -->
+        <RelativeLayout
+            android:id="@+id/profile_box"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#305165"
+            android:gravity="center_vertical" >
+
+            <!-- Logo -->
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="280dp"
+                android:layout_height="100dp"
+                android:background="@drawable/logo"
+                android:contentDescription="@string/logo" />
+
+        </RelativeLayout>
+
+        <!-- Navigation Listview -->
+        <ListView
+            android:id="@+id/nav_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_box"
+            android:choiceMode="singleChoice"
+            android:background="#ffffff" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>
