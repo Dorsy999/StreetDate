@@ -1,9 +1,9 @@
-# Game Release (tentative)
+# StreetDate
 
 What is it?
 -----------
 
-Game Release (tentative) is a mobile and web application
+StreetDate is a mobile and web application
 that allows you to view and track game release dates for
 multiple platforms on multiple devices. 
 
