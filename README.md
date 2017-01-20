@@ -27,7 +27,9 @@ Installation
 ------------
 
 Web: This application can be viewed from any browser at http://streetdate.games
+
 Android: The application can be obtained from the Google Play App Store
+
 iOS: This application will be developed for Apple devices at a future date.
 
 Licensing
